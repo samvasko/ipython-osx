@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27589D0F1A41BD4F00A0AACC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27589D0E1A41BD4F00A0AACC /* AppDelegate.swift */; };
+		27589D111A41BD4F00A0AACC /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27589D101A41BD4F00A0AACC /* Document.swift */; };
+		27589D141A41BD4F00A0AACC /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27589D121A41BD4F00A0AACC /* Document.xib */; };
+		27589D161A41BD4F00A0AACC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27589D151A41BD4F00A0AACC /* Images.xcassets */; };
+		27589D191A41BD4F00A0AACC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27589D171A41BD4F00A0AACC /* MainMenu.xib */; };
+		27589D251A41BD4F00A0AACC /* IPythonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27589D241A41BD4F00A0AACC /* IPythonTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27589D1F1A41BD4F00A0AACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27589D011A41BD4F00A0AACC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27589D081A41BD4F00A0AACC;
+			remoteInfo = IPython;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27589D091A41BD4F00A0AACC /* IPython.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPython.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27589D0D1A41BD4F00A0AACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27589D0E1A41BD4F00A0AACC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27589D101A41BD4F00A0AACC /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		27589D131A41BD4F00A0AACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		27589D151A41BD4F00A0AACC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		27589D181A41BD4F00A0AACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		27589D1E1A41BD4F00A0AACC /* IPythonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPythonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27589D231A41BD4F00A0AACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27589D241A41BD4F00A0AACC /* IPythonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPythonTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27589D061A41BD4F00A0AACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27589D1B1A41BD4F00A0AACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27589D001A41BD4F00A0AACC = {
+			isa = PBXGroup;
+			children = (
+				27589D0B1A41BD4F00A0AACC /* IPython */,
+				27589D211A41BD4F00A0AACC /* IPythonTests */,
+				27589D0A1A41BD4F00A0AACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27589D0A1A41BD4F00A0AACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27589D091A41BD4F00A0AACC /* IPython.app */,
+				27589D1E1A41BD4F00A0AACC /* IPythonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27589D0B1A41BD4F00A0AACC /* IPython */ = {
+			isa = PBXGroup;
+			children = (
+				27589D0E1A41BD4F00A0AACC /* AppDelegate.swift */,
+				27589D101A41BD4F00A0AACC /* Document.swift */,
+				27589D121A41BD4F00A0AACC /* Document.xib */,
+				27589D151A41BD4F00A0AACC /* Images.xcassets */,
+				27589D171A41BD4F00A0AACC /* MainMenu.xib */,
+				27589D0C1A41BD4F00A0AACC /* Supporting Files */,
+			);
+			path = IPython;
+			sourceTree = "<group>";
+		};
+		27589D0C1A41BD4F00A0AACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27589D0D1A41BD4F00A0AACC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27589D211A41BD4F00A0AACC /* IPythonTests */ = {
+			isa = PBXGroup;
+			children = (
+				27589D241A41BD4F00A0AACC /* IPythonTests.swift */,
+				27589D221A41BD4F00A0AACC /* Supporting Files */,
+			);
+			path = IPythonTests;
+			sourceTree = "<group>";
+		};
+		27589D221A41BD4F00A0AACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27589D231A41BD4F00A0AACC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27589D081A41BD4F00A0AACC /* IPython */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27589D281A41BD4F00A0AACC /* Build configuration list for PBXNativeTarget "IPython" */;
+			buildPhases = (
+				27589D051A41BD4F00A0AACC /* Sources */,
+				27589D061A41BD4F00A0AACC /* Frameworks */,
+				27589D071A41BD4F00A0AACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPython;
+			productName = IPython;
+			productReference = 27589D091A41BD4F00A0AACC /* IPython.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27589D1D1A41BD4F00A0AACC /* IPythonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27589D2B1A41BD4F00A0AACC /* Build configuration list for PBXNativeTarget "IPythonTests" */;
+			buildPhases = (
+				27589D1A1A41BD4F00A0AACC /* Sources */,
+				27589D1B1A41BD4F00A0AACC /* Frameworks */,
+				27589D1C1A41BD4F00A0AACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27589D201A41BD4F00A0AACC /* PBXTargetDependency */,
+			);
+			name = IPythonTests;
+			productName = IPythonTests;
+			productReference = 27589D1E1A41BD4F00A0AACC /* IPythonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27589D011A41BD4F00A0AACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Samuel Vasko";
+				TargetAttributes = {
+					27589D081A41BD4F00A0AACC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					27589D1D1A41BD4F00A0AACC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 27589D081A41BD4F00A0AACC;
+					};
+				};
+			};
+			buildConfigurationList = 27589D041A41BD4F00A0AACC /* Build configuration list for PBXProject "IPython" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27589D001A41BD4F00A0AACC;
+			productRefGroup = 27589D0A1A41BD4F00A0AACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27589D081A41BD4F00A0AACC /* IPython */,
+				27589D1D1A41BD4F00A0AACC /* IPythonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27589D071A41BD4F00A0AACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27589D141A41BD4F00A0AACC /* Document.xib in Resources */,
+				27589D161A41BD4F00A0AACC /* Images.xcassets in Resources */,
+				27589D191A41BD4F00A0AACC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27589D1C1A41BD4F00A0AACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27589D051A41BD4F00A0AACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27589D111A41BD4F00A0AACC /* Document.swift in Sources */,
+				27589D0F1A41BD4F00A0AACC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27589D1A1A41BD4F00A0AACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27589D251A41BD4F00A0AACC /* IPythonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27589D201A41BD4F00A0AACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27589D081A41BD4F00A0AACC /* IPython */;
+			targetProxy = 27589D1F1A41BD4F00A0AACC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27589D121A41BD4F00A0AACC /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27589D131A41BD4F00A0AACC /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		27589D171A41BD4F00A0AACC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27589D181A41BD4F00A0AACC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27589D261A41BD4F00A0AACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27589D271A41BD4F00A0AACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		27589D291A41BD4F00A0AACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = IPython/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27589D2A1A41BD4F00A0AACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = IPython/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		27589D2C1A41BD4F00A0AACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IPythonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPython.app/Contents/MacOS/IPython";
+			};
+			name = Debug;
+		};
+		27589D2D1A41BD4F00A0AACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IPythonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPython.app/Contents/MacOS/IPython";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27589D041A41BD4F00A0AACC /* Build configuration list for PBXProject "IPython" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27589D261A41BD4F00A0AACC /* Debug */,
+				27589D271A41BD4F00A0AACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27589D281A41BD4F00A0AACC /* Build configuration list for PBXNativeTarget "IPython" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27589D291A41BD4F00A0AACC /* Debug */,
+				27589D2A1A41BD4F00A0AACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		27589D2B1A41BD4F00A0AACC /* Build configuration list for PBXNativeTarget "IPythonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27589D2C1A41BD4F00A0AACC /* Debug */,
+				27589D2D1A41BD4F00A0AACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27589D011A41BD4F00A0AACC /* Project object */;
+}
