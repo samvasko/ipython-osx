@@ -1,7 +1,7 @@
-# IPython notebook native client or Mac
-Notebook is a great program, but it missing some good integration with host operating system. This project aims to fix that without having to ship custom JS. If you are asking what exactly does that mean, check the roadmap below.
+# IPython notebook native client for Mac
+[IPython Notebook](http://ipython.org/notebook.html) is great program but it missing some essential integration with host operating system. This project aims to fix that without having to ship custom JS. If you are asking what exactly does that mean, check the roadmap below.
 
-**Every contribution is very welcome! :beers:** 
+**Every contribution is very welcome! :beers:**
 
 ### Building
 1. Clone the repo
@@ -12,10 +12,10 @@ Notebook is a great program, but it missing some good integration with host oper
 **Not ready yet**
 
 ### Overview
-IPython notebook is a web based computational environment, so the general overview looks like this `[ Browser ] <-> [ JS ] <-> [ Server ]. This project aims to replace the browser with a native client without sacrificing compatibility. 
+IPython notebook is a web based computational environment, so the general overview looks like this `[ Browser ] <-> [ JS ] <-> [ Server ]. This project aims to replace the browser with a native client without sacrificing compatibility.
 
 ### Roadmap
-I have a feeling that there is plenty 
+If you have a suggestion for a roadmap. Please submit a pull request/issue.
 
 **Alpha**
  - [ ] Creating, opening, closing and saving `.ipnb` files from Finder
@@ -27,15 +27,15 @@ I have a feeling that there is plenty
  - [ ] Crude Website/Public Release
  - [ ] Downloadable build
 
-**Beta** 
+**Beta**
 - [ ] Ability to run/stop IPython server in background.
 - [ ] Detect currently running servers and connect to them
 - [ ] `brew cask` support
 - [ ] Print support
 - [ ] Exporting
-- [ ] Tabs? 
-  [ ] All web based controls replaced by native 
-  
-  **1.0** 
-  - [ ] Being awesome
-  - [ ] No bugs :satisfied: 
+- [ ] Tabs?
+- [ ] All web based controls replaced by native
+
+**1.0**
+- [ ] Being awesome
+- [ ] No bugs :satisfied:
