@@ -1,18 +1,18 @@
 # IPython notebook native client or Mac
-Notebook is a great program, but it missing some good integration with host operating system. This project aims to fix that without having to ship custom JS. If you are asking what excatly does that mean, check the roadmap below.
+Notebook is a great program, but it missing some good integration with host operating system. This project aims to fix that without having to ship custom JS. If you are asking what exactly does that mean, check the roadmap below.
 
 **Every contribution is very welcome! :beers:** 
 
-### Bulding
+### Building
 1. Clone the repo
-2. Open the xcode projec
+2. Open the Xcode project
 3. Run it
 
 ### Usage
 **Not ready yet**
 
 ### Overview
-IPython notebook is a web based computational enviroment, so the general overview looks like this `[ Browser ] <-> [ JS ] <-> [ Server ]. This project aims to replace the browser with a native client without sacrificing compatibilty. 
+IPython notebook is a web based computational environment, so the general overview looks like this `[ Browser ] <-> [ JS ] <-> [ Server ]. This project aims to replace the browser with a native client without sacrificing compatibility. 
 
 ### Roadmap
 I have a feeling that there is plenty 
@@ -29,7 +29,7 @@ I have a feeling that there is plenty
 
 **Beta** 
 - [ ] Ability to run/stop IPython server in background.
-- [ ] Detect curretly running servers and connect to them
+- [ ] Detect currently running servers and connect to them
 - [ ] `brew cask` support
 - [ ] Print support
 - [ ] Exporting
